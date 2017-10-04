@@ -6,7 +6,7 @@ import java.util.List;
 public class Intent {
 
     private String key;
-    private Long minScore;
+    private Double minScore;
     private List<String> keywords;
     private List<String> answers;
     private boolean correlatedEntities;
@@ -21,11 +21,11 @@ public class Intent {
         this.key = key;
     }
 
-    public Long getMinScore() {
+    public Double getMinScore() {
         return minScore;
     }
 
-    public void setMinScore(Long minScore) {
+    public void setMinScore(Double minScore) {
         this.minScore = minScore;
     }
 
